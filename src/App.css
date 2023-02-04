@@ -3,28 +3,6 @@
   padding: 0;
 }
 
-:root {
-  --white: #fff;
-  --water: rgba(30, 78, 167, 0.726);
-  --fire: rgba(196, 96, 30, 0.726);
-  --grass: rgba(69, 196, 30, 0.726);
-  --poison: rgba(108, 30, 196, 0.726);
-  --flying: rgba(172, 221, 215, 0.726);
-  --bug: rgba(196, 153, 73, 0.726);
-  --normal: rgba(221, 212, 172, 0.726);
-  --ground: rgba(197, 146, 37, 0.726);
-  --electric: rgba(216, 203, 27, 0.726);
-  --fairy: rgba(228, 62, 145, 0.726);
-  --fighting: rgba(63, 53, 59, 0.726);
-  --psychic: rgba(212, 64, 218, 0.726);
-  --rock: rgba(128, 128, 128, 0.726);
-  --ice: rgba(49, 146, 175, 0.726);
-  --dragon: rgba(189, 93, 69, 0.726);
-  --dark: rgba(0, 0, 0, 0.726);
-  --ghost: rgba(175, 88, 168, 0.726);
-  --steel: rgba(39, 38, 38, 0.726);
-}
-
 .navbar {
   height: 100px;
   display: flex;
@@ -143,58 +121,6 @@
   align-items: center;
   padding: 40px;
   margin: 20px;
-}
-
-.water {
-  background: linear-gradient(var(--water), var(--white));
-}
-.fire {
-  background: linear-gradient(var(--fire), var(--white));
-}
-.bug {
-  background: linear-gradient(var(--bug), var(--white));
-}
-.grass {
-  background: linear-gradient(var(--grass), var(--white));
-}
-.poison {
-  background: linear-gradient(var(--poison), var(--white));
-}
-.normal {
-  background: linear-gradient(var(--normal), var(--white));
-}
-.electric {
-  background: linear-gradient(var(--electric), var(--white));
-}
-.fairy {
-  background: linear-gradient(var(--fairy), var(--white));
-}
-.fighting {
-  background: linear-gradient(var(--fighting), var(--white));
-}
-.rock {
-  background: linear-gradient(var(--rock), var(--white));
-}
-.psychic {
-  background: linear-gradient(var(--psychic), var(--white));
-}
-.ground {
-  background: linear-gradient(var(--ground), var(--white));
-}
-.ice {
-  background: linear-gradient(var(--ice), var(--white));
-}
-.dragon {
-  background: linear-gradient(var(--dragon), var(--white));
-}
-.steel {
-  background: linear-gradient(var(--steel), var(--white));
-}
-.dark {
-  background: linear-gradient(var(--dark), var(--white));
-}
-.ghost {
-  background: linear-gradient(var(--ghost), var(--white));
 }
 
 .details-presentation img {
